@@ -1,0 +1,233 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 80px;
+    padding: 50px;
+    z-index: 1;
+    margin-top: 0px;
+}
+
+.main .underline {
+    position: absolute;
+    bottom:420px;
+    left: 0;
+    width: 100%;
+    border-bottom: 2px solid black;
+    z-index: 0; 
+  }
+.main img{
+    display: block;
+    position: relative; 
+    z-index: 1;
+  }
+.one{
+    width: 300px;
+}
+.one img{
+    transition: transform 0.5s ease-in-out;
+}
+.one img:hover{
+    transform: scale(0.8);
+    content: url("./Img_1.png");
+    width: 250px; 
+    height: 304px;
+    bottom: 40px;
+}
+.one:hover .image-container img {
+    content: url("./Img_1.png");  
+    transform: scale(0.8);
+}
+.image-container img:hover + p.a1 {
+    opacity: 0.5;
+}
+
+.a3 button:hover + p.a1 .one img {
+    opacity: 0.5;
+    transform: scale(0.8);
+}
+.one p{
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.a2{
+    padding: 10px;
+}
+button{
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid;
+    background-color: white;
+}
+button:hover{
+    background-color: blue;
+    padding: 10px;
+}
+.two img{
+    transition: transform 0.5s ease-in-out;
+}
+.two img:hover{
+        line-height: 10px;
+        transform: scale(0.8);
+        content: url("./Img-Il-Biscotto-Sbrisolotto_\(600x600\).png");
+        width: 35 0px; 
+        height: 304px;
+        bottom: 20px;
+}
+.two:hover .image-container img {
+    content: url("./Img-Il-Biscotto-Sbrisolotto_\(600x600\).png");
+    transform: scale(0.8);
+}
+.two p{
+    text-align: center;
+}
+.two{
+    width: 300px;
+}
+.three img:hover{
+    line-height: 10px;
+    transform: scale(0.8);
+    content: url("./Img_Il-Biscotto-Frollino_\(600x600\).png");
+    width: 35 0px; 
+    height: 304px;
+    bottom: 20px;
+}
+.three:hover .image-container img {
+    content: url("./Img_Il-Biscotto-Frollino_\(600x600\).png");
+    transform: scale(0.8);
+}
+.three p{
+text-align: center;
+}
+.three{
+width: 300px;
+}
+.three img{
+    transition: transform 0.5s ease-in-out;
+}
+.four img:hover{
+    line-height: 10px;
+    transform: scale(0.8);
+    content: url("./Img_Il-Biscotto-Arancia-e-Nocciola_\(600x600\).png");
+    width: 35 0px; 
+    height: 304px;
+    bottom: 20px;
+}
+.four:hover .image-container img {
+    content: url("./Img_Il-Biscotto-Arancia-e-Nocciola_\(600x600\).png");
+    transform: scale(0.8);
+}
+.four p{
+text-align: center;
+}
+.four{
+width: 300px;
+}
+.four img{
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.main1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 80px;
+    padding: 50px;
+    margin-left: 100px;
+    z-index: 1;
+    margin-top: 0px;
+}
+
+.main1 .underline {
+    position: absolute;
+    bottom:-70px;
+    left: 0;
+    width: 100%;
+    border-bottom: 2px solid black;
+    z-index: 0; 
+  }
+.main1 img{
+    display: block;
+    position: relative; 
+    z-index: 1;
+  }
+
+  .five img:hover{
+    line-height: 10px;
+    transform: scale(0.8);
+    content: url("./Img_Il-Biscotto-Gocciolato_\(600x600\).png");
+    width: 35 0px; 
+    height: 304px;
+    bottom: 20px;
+}
+.five:hover .image-container img {
+    content: url("./Img_Il-Biscotto-Gocciolato_\(600x600\).png");
+    transform: scale(0.8);
+}
+
+.five p{
+text-align: center;
+}
+.five{
+width: 300px;
+}
+.five img{
+    transition: transform 0.5s ease-in-out;
+}
+
+.six img:hover{
+    line-height: 10px;
+    transform: scale(0.8);
+    content: url("./Img_Il-Biscotto-al-Cioccolato_\(600x600\).png");
+    width: 35 0px; 
+    height: 304px;
+    bottom: 20px;
+}
+.six:hover .image-container img {
+    content: url("./Img_Il-Biscotto-al-Cioccolato_\(600x600\).png");
+    transform: scale(0.8);
+}
+.six p{
+text-align: center;
+}
+.six{
+width: 300px;
+}
+.six img{
+    transition: transform 0.5s ease-in-out;
+}
+
+.seven img:hover{
+    line-height: 10px;
+    transform: scale(0.8);
+    content: url("./Img_Il-Biscotto-al-Limone_\(600x600\).png");
+    width: 35 0px; 
+    height: 304px;
+    bottom: 20px;
+}
+.seven:hover .image-container img {
+    content: url("./Img_Il-Biscotto-al-Limone_\(600x600\).png");
+    transform: scale(0.8);
+}
+.seven p{
+text-align: center;
+}
+.seven{
+width: 300px;
+}
+.seven img{
+    transition: transform 0.5s ease-in-out;
+}
+
+.one:hover .a1,
+.two:hover .a1,
+.three:hover .a1,
+.four:hover .a1,
+.five:hover .a1,
+.six:hover .a1,
+.seven:hover .a1 {
+    opacity: 0.5;  
+}
